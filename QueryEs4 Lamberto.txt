@@ -1,0 +1,72 @@
+--SELECT * from Impiegato
+--SELECT * from Impiego
+
+--SELECT Nome,Cognome,eta,TitoloImpiego
+--From Impiegato
+--inner join
+--Impiego 
+--on Impiegato.idImpiegato = Impiego.idImpiegato
+--where eta > 29
+
+--SELECT Nome,Cognome,RedditoMensile, TitoloImpiego
+--From Impiegato
+--inner join
+--Impiego 
+--on Impiegato.idImpiegato = Impiego.idImpiegato
+--where RedditoMensile > 800
+
+--SELECT Nome,Cognome,RedditoMensile, TitoloImpiego,DetrazioneFiscale
+--From Impiegato
+--inner join
+--Impiego 
+--on Impiegato.idImpiegato = Impiego.idImpiegato
+--where detrazioneFiscale = 1
+
+--SELECT Nome,Cognome,RedditoMensile, TitoloImpiego,DetrazioneFiscale
+--From Impiegato
+--inner join
+--Impiego 
+--on Impiegato.idImpiegato = Impiego.idImpiegato
+--where detrazioneFiscale = 0
+
+--SELECT Nome,Cognome
+--From Impiegato
+--where cognome like 'D%'
+--ORDER BY cognome
+
+--Select Count(IdImpiegato)
+--as NumeroImpiegati
+--from Impiegato
+
+
+--Select Sum(RedditoMensile)
+--as TotRedditi
+--from impiegato
+
+--Select Avg(RedditoMensile)
+--as MediaRedditi
+--from impiegato
+
+--Select Max(RedditoMensile)
+--from impiegato
+
+--Select Min(RedditoMensile)
+--from impiegato
+
+--Select nome,cognome,titoloimpiego, dataassunzione 
+--from impiegato
+--inner join
+--impiego
+--on Impiegato.IdImpiegato = Impiego.IdImpiegato
+--where dataassunzione between '01/01/2007' and '01/01/2008'
+
+--Select nome,cognome,titoloimpiego, dataassunzione 
+--from impiegato
+--inner join	
+--impiego
+--on Impiegato.IdImpiegato = Impiego.IdImpiegato
+--where dataassunzione between '01/01/2019' and '01/01/2023'
+
+--Select Avg(eta)
+--as MediaEta
+--from impiegato
